@@ -1,0 +1,83 @@
+:root {
+  --rgb-white: 255, 255, 255;
+  --rgb-dark-600: 11, 14, 17;
+  --rgb-dark-500: 14, 17, 20;
+  --rgb-dark-400: 35, 38, 47;
+  --rgb-dark-300: 71, 77, 87;
+  --rgb-grey-300: 111, 111, 111;
+  --rgb-grey-200: 181, 179, 188;
+  --rgb-grey-100: 222, 222, 222;
+  --rgb-accent-primary: 80, 190, 187;
+  --rgb-acent-secondary: 108, 220, 217;
+  --rgb-accent-tertiary: 151, 230, 228;
+  --rgb-primary: 2, 195, 189;
+  --rgb-secondary: 64, 98, 187;
+  --rgb-danger: 255, 68, 69;
+  --rgb-warning: 255, 149, 51;
+  --rgb-success: 21, 170, 44;
+  --gradient-primary: linear-gradient(
+    135deg,
+    rgba(2, 195, 189, 1) 0%,
+    rgba(64, 98, 187, 1) 100%
+  );
+  --gradient-secondary: linear-gradient(
+    45deg,
+    rgba(2, 195, 189) 0%,
+    rgba(88, 153, 255) 100%,
+    rgb(80, 190, 187) 100%
+  );
+}
+
+.border-none {
+  border: 0;
+}
+
+.border-dark {
+  --border-color: rgba(var(--rgb-grey-200));
+}
+
+.bg-danger {
+  background-color: rgb(var(--rgb-danger));
+}
+
+.bg-success {
+  background-color: rgb(var(--rgb-success));
+}
+
+.text-grey {
+  color: rgb(var(--rgb-grey-200));
+}
+
+.text-gradient {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* background color variable */
+.dark-bg-main {
+  background: var(--dark-600) !important;
+}
+
+.dark-bg-accent {
+  background: var(--dark-500) !important;
+}
+/* end background color */
+
+.btn-primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 10px;
+  width: 100%;
+  background: var(--gradient-primary) !important;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--white);
+  /* margin: 16px 0; */
+  border: none;
+}

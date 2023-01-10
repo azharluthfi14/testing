@@ -1,0 +1,29 @@
+.order-tabs {
+    width: 120px;
+}
+.order-tabs-item {
+    min-width: 60px;
+    text-align: center;
+}
+.btn-cancel {
+    text-transform: none;
+}
+
+.section-order {
+    min-height: calc(100vh - 350px);
+}
+.orders-row {
+    padding: 5px 5px;
+    line-height: 18px;
+}
+
+.orders-row .orders-row-item:nth-child(1){
+    width: 30%;
+}
+.orders-row .orders-row-item:nth-child(2){
+    width: 40%;
+}
+.orders-row .orders-row-item:nth-child(3){
+    width: 30%;
+    text-align: right;
+}

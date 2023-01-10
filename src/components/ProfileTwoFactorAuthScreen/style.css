@@ -1,0 +1,224 @@
+.pg-profile-two-factor-auth {
+  display: block;
+  margin: 0 auto;
+  width: 535px;
+}
+.pg-profile-two-factor-auth__header {
+  color: var(--primary-text-color);
+  font-style: normal;
+  text-transform: uppercase;
+}
+.pg-profile-two-factor-auth__header img {
+  cursor: pointer;
+}
+.pg-profile-two-factor-auth__copyablefield {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.pg-profile-two-factor-auth__copyablefield__container {
+  position: relative;
+  width: 100%;
+}
+.pg-profile-two-factor-auth__copyablefield__container legend {
+  left: 5%;
+  padding: 0 3px;
+  position: absolute;
+  top: -10px;
+  width: auto;
+  z-index: 5;
+}
+
+.pg-profile-two-factor-auth__copyablefield fieldset {
+  background: inherit;
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.pg-profile-two-factor-auth__copyablefield fieldset .cr-copyable-text-field .input-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.pg-profile-two-factor-auth__copyablefield fieldset .cr-copyable-text-field .input-group .custom-input {
+  width: 70%;
+}
+.pg-profile-two-factor-auth__copyablefield fieldset .cr-copyable-text-field .input-group .custom-input label {
+  margin-top: -18px;
+}
+.pg-profile-two-factor-auth__copyablefield fieldset .cr-copyable-text-field .input-group .btn-primary {
+  border-radius: 0.3rem;
+}
+
+
+.pg-profile-two-factor-auth__copyablefield fieldset .cr-deposit-crypto__copyable-title {
+  position: absolute;
+  width: max-content;
+}
+.pg-profile-two-factor-auth__copyablefield fieldset .pg-copyable-text-field__input {
+  border: none;
+}
+.pg-profile-two-factor-auth__copyablefield fieldset .pg-copyable-text-field__input input {
+  background: transparent;
+  box-sizing: border-box;
+}
+.pg-profile-two-factor-auth__body fieldset {
+  box-sizing: border-box;
+  float: right;
+  max-width: 100%;
+  padding-left: 0;
+  width: auto;
+}
+
+.pg-profile-two-factor-auth__body fieldset .hidden-label {
+  font-size: 1.25rem;
+  height: 0;
+  padding: 0 10px;
+  visibility: hidden;
+}
+.pg-profile-two-factor-auth__body fieldset input {
+  background: transparent;
+  border: unset;
+  bottom: 0;
+}
+
+.pg-profile-two-factor-auth__body--input {
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+.pg-profile-two-factor-auth__body--input .custom-input {
+  padding: 0;
+}
+.pg-profile-two-factor-auth__body--input .custom-input .input-group {
+  padding: 0;
+}
+.pg-profile-two-factor-auth__body--input .custom-input .input-group input {
+  margin-top: 0;
+  padding: 0 0 0 10px;
+}
+.pg-profile-two-factor-auth__body--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.pg-profile-two-factor-auth__body--text--last {
+  justify-content: center;
+}
+
+.pg-profile-two-factor-auth__body--text--group {
+  align-items: center;
+  display: flex;
+}
+
+.pg-profile-two-factor-auth__body--text--group div {
+  padding: 0 calc(var(--gap) * 1.5) 0 calc(var(--gap) * 4.16);
+}
+.pg-profile-two-factor-auth__body .pg-profile-two-factor-auth__qr {
+  height: calc(var(--big-gap) * 2.66);
+}
+.pg-profile-two-factor-auth__body .cr-input {
+  width: 100%;
+}
+.pg-profile-two-factor-auth__body .cr-input input {
+  color: var(--input-text-color);
+  font-size: var(--font-size);
+  text-align: left;
+  width: 100%;
+}
+.pg-profile-two-factor-auth__form {
+  background: var(--body-background-color);
+  box-shadow: 0 10px 15px var(--shadow-color-level-2);
+}
+.pg-profile-two-factor-auth__form .cr-copyable-text-field {
+  border: none;
+}
+.pg-profile-two-factor-auth__form .cr-copyable-text-field input {
+  margin: 0;
+}
+.pg-profile-two-factor-auth__error {
+  color: var(--system-red);
+}
+.pg-profile-two-factor-auth__info {
+  color: var(--input-text-color);
+}
+.pg-profile-two-factor-auth .cr-copyable-text-field {
+  border-color: var(--input-border-color);
+}
+.pg-profile-two-factor-auth .cr-copyable-text-field input {
+  color: var(--input-text-color);
+  font-size: var(--font-size);
+}
+@media (min-width: 992px) {
+  .pg-profile-two-factor-auth__qr {
+    height: calc(var(--big-gap) * 2) !important;
+    padding-left: 0 !important;
+ }
+}
+@media (max-width: 991px) {
+  .pg-profile-two-factor-auth {
+    width: 100%;
+ }
+  .pg-profile-two-factor-auth__qr {
+    height: calc(var(--big-gap) * 1.8) !important;
+ }
+}
+@media (max-width: 767px) {
+  .pg-profile-two-factor-auth {
+    width: 100%;
+ }
+  .pg-profile-two-factor-auth__qr {
+    display: block;
+    height: calc(var(--big-gap) * 5) !important;
+    margin: 0 auto;
+ }
+}
+@media (max-width: 576px) {
+  .pg-profile-two-factor-auth__qr {
+    display: block;
+    height: calc(var(--big-gap) * 3) !important;
+    margin: 0 auto;
+ }
+  .pg-profile-two-factor-auth__body fieldset {
+    float: none;
+ }
+}
+
+.pg-profile-two-factor-auth__form {
+  height: calc(100vh - 200px);
+}
+.cr-mobile-profile-auth .cr-mobile-two-fa-modal .cr-mobile-modal__block--open {
+  top: calc(100vh - 300px);
+}
+.cr-mobile-profile-auth .custom-input input {
+  height: 42px;
+}
+.pg-profile-two-factor-auth__form {
+  box-shadow: unset;
+}
+.cr-mobile-profile-auth__enable .pg-profile-two-factor-auth__body--text--group:first-child .d-inline {
+  padding: 12px 0 !important;
+}
+.pg-profile-two-factor-auth__qr {
+  width: 150px !important;
+  height: 150px !important;
+  padding: 10px;
+  border: 1px solid var(--bd-color);
+  border-radius: 5px;
+}
+.cr-mobile-profile-auth__enable .pg-profile-two-factor-auth__qr {
+  margin-bottom: 15px !important;
+}
+.cr-mobile-profile-auth__enable .pg-profile-two-factor-auth__qr .custom-input label {
+  left: 23px !important;
+}
+.cr-mobile-two-fa-modal .custom-input label {
+  left: 23px !important;
+}
+.mfa-key {
+  font-size: 15px;
+  border: 0px solid #fff;
+  width: calc(100vw - 70px);
+}

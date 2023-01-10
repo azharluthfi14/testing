@@ -1,0 +1,19 @@
+.light-mode {
+  --bids: #58bd7d;
+  --asks: #ff6838;
+  --primary-text-color: #141a26;
+  --bd-color:#d2d2d2;
+  --border-light:#eeeff3;
+  --main-text-color:#000;
+  --green-color:#007a6a;
+  --red-color:#e35461;
+  --text-light-color:#747474;
+  --main-background-color: #eeeff3;
+  --body-background-color: #ffffff;
+  --ion-text-color: #141a26;
+  --text-very-light-color: #757f91;
+  --icon-primary: #9440b8;
+  --yellow-color: #ecb60c;
+  --background-red-transparent: #ffebeb;
+  --background-green-transparent: #e8fcf1;
+}

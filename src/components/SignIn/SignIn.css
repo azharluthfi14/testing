@@ -1,0 +1,11 @@
+.forgot-password {
+  text-align: end;
+}
+
+.item-has-focus.custom {
+  --highlight-background: #4b08c7;
+}
+
+.custom {
+  --border-color: white;
+}

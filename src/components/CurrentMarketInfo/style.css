@@ -1,0 +1,5 @@
+.trading-area {
+    padding: 0px 15px 10px 15px;
+    border-bottom: 5px solid var(--main-background-color);
+    background: var(--body-background-color);
+}

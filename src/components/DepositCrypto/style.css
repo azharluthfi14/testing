@@ -1,0 +1,26 @@
+.qr-code-wrapper {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.deposit-address {
+    background: transparent;
+    border: 0px solid #000;
+    color: var(--body-background-color);
+    font-size: 1px;
+    outline: none;
+}
+
+.instruction-area {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.text-instruction{
+    font-size: 12px;
+}
+.text-address {
+    overflow-wrap: break-word;
+    font-size: 16px;
+    text-align: center;
+}

@@ -1,0 +1,109 @@
+.pg-code-verification {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.pg-code-verification__paste {
+  cursor: pointer;
+  display: flex;
+  font-weight: bolder;
+  justify-content: center;
+  padding-top: 16px;
+  text-decoration: underline;
+}
+.pg-code-verification__input {
+  height: 50px;
+  margin-top: -50px;
+  width: 100%;
+}
+
+.pg-code-verification__input input {
+  height: 50px;
+  opacity: 0;
+  width: 100%;
+}
+
+.pg-code-verification__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pg-code-verification__wrapper-item {
+  align-items: center;
+  background: var(--input-background-color);
+  border: 1px solid var(--input-border-color);
+  border-radius: 4px;
+  color: var(--text-color);
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  height: 50px;
+  justify-content: space-around;
+  margin: 0 6px;
+  width: 50px;
+}
+
+.pg-code-verification__wrapper-item:first-child {
+  margin-left: 0;
+}
+
+.pg-code-verification__wrapper-item:last-child {
+  margin-right: 0;
+}
+
+.pg-code-verification__wrapper-item-placeholder {
+  color: var(--text-color-opacity-12);
+  font-weight: normal;
+}
+
+.pg-code-verification__wrapper-item-placeholder-border {
+  background: var(--body-background-color);
+  border: 2px solid var(--primary-cta-color);
+  border-radius: 4px;
+}
+
+.pg-code-verification__wrapper-item-placeholder-border-hidden {
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
+  .pg-code-verification {
+  }
+  .pg-code-verification__wrapper-item {
+    height: 40px;
+    margin: 0 0 0 8px;
+    width: 40px;
+    border: 1px solid #4f4f4f !important;
+    border-radius: 5px !important;
+  }
+
+  .pg-code-verification__input {
+    height: 56px;
+  }
+  .pg-code-verification__input input {
+    height: 40px;
+  }
+
+  .pg-code-verification__paste {
+    font-size: 12px;
+    margin-top: 14px;
+  }
+}
+
+.pg-code-verification__wrapper-item-placeholder-border {
+  background: unset;
+  border: 0px solid var(--green-color);
+  border-bottom: 1px solid var(--green-color);
+  border-radius: 0px;
+  width: 40px;
+}
+
+.pg-code-verification__wrapper-item {
+  border: 0px solid var(--input-border-color);
+  border-bottom: 1px solid var(--primary-text-color);
+  border-radius: 0px;
+  color: var(--text-color);
+  width: 40px;
+  background: transparent;
+}

@@ -1,0 +1,20 @@
+{
+  "appId": "co.id.nagaexchange.app",
+  "appName": "Naga Exchange",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "ios": {
+    "contentInset": "always"
+  },
+  "linuxAndroidStudioPath": "C:/Program Files/Android/Android Studio/bin/android-studio.exe",
+  "cordova": {},
+  "server": {
+    "hostname": "mobile.nagaexchange.co.id"
+  }
+}

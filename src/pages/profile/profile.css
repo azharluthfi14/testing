@@ -1,0 +1,147 @@
+.pg-mobile-profile-links {
+  align-items: flex-start;
+
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  justify-content: flex-start;
+  margin: 4px 0;
+  width: 100%;
+}
+.pg-mobile-profile-links__item {
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  height: 39px;
+  justify-content: space-between;
+  letter-spacing: 0.2px;
+  line-height: 15px;
+  padding: 0 16px;
+  width: 100%;
+  padding: 0px;
+  border-bottom: 1px solid var(--border-light);
+}
+.pg-mobile-profile-links__item:last-child {
+  box-shadow: none;
+}
+.pg-mobile-profile-links__item__left {
+  color: var(--primary-text-color);
+}
+.pg-mobile-profile-links__item__right span {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 22px;
+}
+
+.pg-mobile-profile-links__item__right .color-green {
+  color: var(--green-color);
+}
+.pg-mobile-profile-links__item__right .color-red {
+  color: var(--red-color);
+}
+.pg-mobile-profile-links__item__right .text-capitalize {
+  text-transform: capitalize;
+}
+.pg-mobile-profile-links__item__right .referral-link {
+  display: flex;
+  flex-direction: row;
+}
+.pg-mobile-profile-links__item__right .referral-link input {
+  background: var(--body-background-color);
+  border: none;
+  color: var(--body-background-color);
+  cursor: default;
+  height: 1px;
+  outline: none;
+  width: 5px;
+}
+.pg-mobile-profile-links__item__right .referral-link span {
+  align-items: center;
+  border-radius: 2px;
+  color: var(--primary-text-color);
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  height: 27px;
+  justify-content: center;
+  letter-spacing: 0.1px;
+  min-width: 86px;
+  padding: 0 12px;
+  width: max-content;
+}
+.pg-mobile-profile-links__item__right svg {
+  height: 9px;
+  margin-left: 14px;
+  transform: rotate(-90deg);
+  width: 14px;
+}
+
+.banner-profile {
+  padding: 30px 30px;
+  text-align: center;
+}
+
+.banner-profile img {
+  opacity: 0.8;
+  height: 88px;
+  width: 88px;
+  border-radius: 100%;
+}
+
+.profile-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  margin-top: 20px;
+}
+
+.banner-referral {
+  color: #fff;
+  background: var(--green-color);
+  border-radius: 16px;
+  padding: 10px 20px;
+  line-height: 18px;
+}
+.banner-referral img {
+  height: 35px;
+}
+.banner-referral__title {
+  font-size: 15px;
+  text-align: left;
+  color: #fff;
+  font-weight: 600;
+}
+.banner-referral__subtitle {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #fff;
+}
+.banner-referral__icon ion-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.profil-divider {
+  padding: 7px 0px;
+  margin-top: 15px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--text-very-light-color);
+}
+
+.green {
+  color: var(--green-color);
+}
+.red {
+  color: var(--red-color);
+}
+.img-round {
+  height: 36px !important;
+  width: 48px !important;
+}
+.icon-forward {
+  font-size: 20px;
+}

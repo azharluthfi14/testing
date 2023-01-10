@@ -1,0 +1,73 @@
+.cr-withdrawal-limits {
+  display: flex;
+  align-items: center;
+  color: var(--primary-text-color);
+  margin-bottom: 24px;
+}
+.cr-withdrawal-limits h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+}
+.cr-withdrawal-limits__fee-group {
+  background: var(--secondary-contrast-cta-color-level-1);
+  border-radius: 4px;
+  color: var(--text-light-color);
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  padding: 2px 8px;
+  margin: 0 12px;
+}
+.cr-withdrawal-limits__title-tip svg {
+  width: 18px;
+  height: 18px;
+}
+.cr-withdrawal-limits__group {
+  display: flex;
+  margin-bottom: 20px;
+}
+.cr-withdrawal-limits__group-info {
+  margin-left: 8px;
+}
+.cr-withdrawal-limits__group-info-usdt {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: var(--primary-text-color);
+  display: flex;
+  align-items: center;
+}
+.cr-withdrawal-limits__group-info-usdt span {
+  font-weight: bold;
+  color: var(--primary-text-color);
+}
+.cr-withdrawal-limits__group-info-period {
+  color: var(--text-light-color) !important;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+.cr-withdrawal-limits__group-info-currency {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  color: var(--primary-cta-color);
+  display: flex;
+  align-items: center;
+}
+.withdraw-info {
+  line-height: 20px;
+}
+.input-element{
+  height: 42px;
+  width: 100%;
+  border: 1px solid var(--bd-color);
+  border-radius: 5px;
+  padding: 5px 10px;
+  background: var(--body-background-color);
+}

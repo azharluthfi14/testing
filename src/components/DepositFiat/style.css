@@ -1,0 +1,14 @@
+.form-deposit input {
+    border: none!important;
+}
+
+.bank_number {
+    border: 0px solid #fff;
+    background: transparent;
+    outline: none;
+    font-size: 18px;
+}
+.copy-icon {
+    font-size: 18px!important;
+    margin-top: -5px;
+}

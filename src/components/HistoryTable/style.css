@@ -1,0 +1,14 @@
+.history-row {
+    line-height: 18px;
+    padding-top: 15px;
+}
+.history-item {
+    padding: 5px 0px;
+    border-bottom: 1px solid var(--bd-color);
+}
+.wallet-detail-section {
+    height: calc(100vh - 400px)!important;
+}
+.w-50 {
+    width: 50%;
+}

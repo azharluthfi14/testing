@@ -1,0 +1,31 @@
+.wallet-section {
+    padding: 10px 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 0px;
+    background: #fff;
+}
+
+.wallet_header {
+    font-size: 12px;
+}
+
+.wallet_header .wallet_header_item:first-child {
+    width: 13%;
+    text-align: left;
+}
+
+.wallet_header .wallet_header_item:nth-child(2) {
+    width: 29%;
+    text-align: left;
+}
+
+.wallet_header .wallet_header_item:nth-child(3) {
+    width: 29%;
+    text-align: right;
+}
+
+.wallet_header .wallet_header_item:last-child {
+    width: 29%;
+    text-align: right;
+}

@@ -1,0 +1,13 @@
+.title-wallet {
+    margin-left: -25px;
+}
+
+.segment ion-segment-button {
+    text-transform: capitalize!important;
+}
+
+.segment {
+    background: #fff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}

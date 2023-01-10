@@ -1,0 +1,107 @@
+.pg-beneficiaries__dropdown__tip {
+  max-width: 300px;
+}
+.pg-beneficiaries__dropdown__tip .tip__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.pg-beneficiaries__dropdown__tip .tip__content__block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--email-form-padding);
+  width: 100%;
+}
+.pg-beneficiaries__dropdown__tip .tip__content__block:last-child {
+  margin-bottom: 0;
+}
+.pg-beneficiaries__dropdown__tip .tip__content__block__label {
+  color: var(--text-light-color);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px;
+}
+.pg-beneficiaries__dropdown__tip .tip__content__block__value {
+  color: var(--primary-text-color);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  opacity: 0.8;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cr-beneficiary-blockchain-item {
+  width: 100%;
+  min-width: 456px;
+}
+.cr-beneficiary-blockchain-item:first-child {
+  margin-top: 38px;
+}
+.cr-beneficiary-blockchain-item .cr-withdraw__group__blockchain-item {
+  margin-bottom: 15px;
+}
+.cr-beneficiary-blockchain-item .cr-withdraw__group__blockchain-item .cr-withdraw-blockchain-item__withdraw {
+  text-transform: capitalize;
+  color: var(--text-light-color);
+  letter-spacing: 0.1px;
+  font-size: 14px;
+  line-height: 22px;
+}
+.cr-beneficiary-blockchain-item .cr-withdraw__group__blockchain-item .cr-withdraw-blockchain-item__blockchain_key__disabled {
+  color: var(--system-red) !important;
+  display: flex;
+  align-items: center;
+}
+.cr-beneficiary-blockchain-item .cr-withdraw__group__blockchain-item .cr-withdraw-blockchain-item__blockchain_key__disabled-block {
+  font-size: 10px;
+  line-height: 13px;
+  color: var(--system-red);
+  border-radius: 3px;
+  background: var(--system-red-level-1);
+  margin-left: 12px;
+  padding: 6px 8px;
+  text-transform: uppercase;
+}
+.cr-beneficiary-blockchain-item .pg-beneficiaries__dropdown__body__group {
+  margin-bottom: 36px;
+  box-shadow: 0px 6px 12px var(--header-shadow-color-level-1);
+}
+.cr-beneficiary-blockchain-item .pg-beneficiaries__dropdown__body__group .item--disabled {
+  opacity: 0.48;
+}
+.cr-beneficiary-blockchain-item .pg-beneficiaries__dropdown__body__item {
+  background: var(--dropdown-background-color);
+  justify-content: space-between;
+  cursor: pointer;
+  height: 70px;
+}
+.cr-beneficiary-blockchain-item .pg-beneficiaries__dropdown__body__item:first-child {
+  border-top: 1px solid var(--divider-color-level-1);
+}
+.cr-beneficiary-blockchain-item .pg-beneficiaries__dropdown__body__item:hover {
+  transition: 0.2;
+  background: var(--dropdown-background-color-level-5);
+}
+.cr-beneficiary-blockchain-item .pg-beneficiaries__dropdown__body__item .item__left {
+  display: flex;
+  flex-flow: column;
+}
+.cr-beneficiary-blockchain-item .pg-beneficiaries__dropdown__body__item .item__left__title {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--primary-text-color);
+}
+.cr-beneficiary-blockchain-item .pg-beneficiaries__dropdown__body__item .item__right {
+  display: flex;
+}
+.cr-beneficiary-blockchain-item .pg-beneficiaries__dropdown__body__item .item__right__tip {
+  display: flex;
+  align-items: center;
+}
+.cr-beneficiary-blockchain-item .pg-beneficiaries__dropdown__body__item .item__right__pending {
+  margin-right: 12px;
+}

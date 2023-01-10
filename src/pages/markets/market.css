@@ -1,0 +1,113 @@
+.market-nav {
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.market-nav.active{
+    color: var(--ion-color-primary);
+    font-weight: 600;
+}
+.market_header {
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.market_header .market_header_item:first-child {
+    width: 8%;
+    text-align: left;
+}
+
+.market_header .market_header_item:nth-child(2) {
+    width: 32%;
+    text-align: left;
+}
+
+.market_header .market_header_item:nth-child(3) {
+    width: 30%;
+    text-align: right;
+}
+
+.market_header .market_header_item:last-child {
+    width: 30%;
+    text-align: center;
+}
+
+.row_ticker {
+    line-height: 18px;
+}
+
+.icon-star {
+    font-size: 18px;
+}
+
+.row_ticker .row_ticker_item:first-child {
+    width: 8%;
+    text-align: left;
+}
+
+.row_ticker .row_ticker_item:nth-child(2) {
+    width: 32%;
+    text-align: left;
+}
+
+.row_ticker .row_ticker_item:nth-child(3) {
+    width: 30%;
+    text-align: right;
+}
+
+.row_ticker .row_ticker_item:last-child {
+    width: 30%;
+    text-align: center;
+}
+
+.btn_ticker {
+    color: #fff!important;
+    height: 34px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px 15px; 
+    padding: 8px 0px;
+}
+
+.btn_ticker.positive {
+    background: var(--green-color);
+}
+
+.btn_ticker.negative {
+    background: var(--red-color);
+}
+
+.market-content {
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+    border-top-left-radius: 20px!important;
+    border-top-right-radius: 20px!important;
+    background: var(--body-background-color)!important;
+}
+
+.group-icon {
+    background: var(--border-light);
+    border-radius: 10px;
+    padding-top: 15px;
+    height: 80px;
+    width: 80px;
+    background: var(--main-background-color);
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.group-icon__title {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 150%;
+}
+.group-icon.active {
+    background: var(--green-color);
+    color: #fff;
+}
+
+

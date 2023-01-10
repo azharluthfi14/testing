@@ -1,0 +1,25 @@
+.cr-percentage-button {
+  background: var(--main-background-color);
+  border: none;
+  cursor: pointer;
+  font-weight: normal;
+  margin: 0 10px;
+  outline: none;
+  padding: 8px;
+  text-align: center;
+  width: 100%;
+  border-radius: 5px;
+  color: var(--text-light-color)
+}
+.cr-percentage-button:active {
+  background: var(--main-background-color);
+}
+.cr-percentage-button:first-child {
+  margin-left: 0;
+}
+.cr-percentage-button:last-child {
+  margin-right: 0;
+}
+.cr-percentage-button:focus {
+  outline: none !important;
+}

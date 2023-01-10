@@ -1,0 +1,48 @@
+.cr-beneficiaries-blockchain-item {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+.cr-beneficiaries-blockchain-item__disabled .cr-beneficiaries-blockchain-item {
+  color: var(--text-light-color);
+}
+.cr-beneficiaries-blockchain-item__disabled .cr-beneficiaries-blockchain-item__protocol {
+  color: var(--system-red) !important;
+  display: flex;
+  align-items: center;
+}
+.cr-beneficiaries-blockchain-item__disabled .cr-beneficiaries-blockchain-item__protocol__disabled {
+  font-size: 10px;
+  line-height: 13px;
+  color: var(--system-red);
+  border-radius: 3px;
+  background: var(--system-red-level-1);
+  margin-left: 12px;
+  padding: 6px 8px;
+  text-transform: uppercase;
+}
+.cr-beneficiaries-blockchain-item__protocol {
+  margin: 0 !important;
+  padding: 0;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+.cr-beneficiaries-blockchain-item-block {
+  width: 100%;
+}
+.cr-beneficiaries-blockchain-item-block:last-child {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+.cr-beneficiaries-blockchain-item-block__fee, .cr-beneficiaries-blockchain-item-block withdraw {
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+}
+.cr-beneficiaries-blockchain-item-block__fee span, .cr-beneficiaries-blockchain-item-block withdraw span {
+  color: var(--text-light-color);
+  font-size: 12px;
+  line-height: 15px;
+}

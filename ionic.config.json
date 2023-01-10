@@ -1,0 +1,7 @@
+{
+  "name": "naga_exchange",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

@@ -1,0 +1,30 @@
+.orderinput {
+    border: 1px solid var(--bd-color);
+    border-radius: 5px;
+}
+
+.icon-increase {
+    font-size: 24px;
+    height:36px;
+    background: var(--body-background-color);
+    padding: 5px 8px;
+}
+.input-order-numeric {
+    width: calc(100%);
+}
+.input-order-numeric input{
+    background: var(--body-background-color);
+    width: calc(100%);
+    border: none;
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+.divider {
+    border-bottom: 1px solid var(--bd-color);
+    margin: 10px 0px;
+}
+
+.list-md {
+    background: var(--body-background-color);
+}

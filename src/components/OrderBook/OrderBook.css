@@ -1,0 +1,37 @@
+.cr-order-book tr td:nth-child(1) {
+  text-align: left;
+}
+.cr-order-book tr td:nth-child(2) {
+  text-align: right;
+}
+
+.cr-order-book tr th:nth-child(1) {
+  text-align: left;
+}
+.cr-order-book tr th:nth-child(2) {
+  text-align: right;
+}
+
+.cr-order-book thead {
+  position: sticky; 
+  top: -1px;; 
+  z-index: 99;
+  background: var(--body-background-color);
+}
+
+.cr-combined-order-book__large .cr-order-book:nth-child(1) tr td:nth-child(2){
+  color: #58bd7d;
+}
+
+.cr-combined-order-book__large .cr-order-book:nth-child(2) tr td:nth-child(1){
+  color: #ff6838;
+}
+
+.cr-combined-order-book__large .cr-order-book tr td{
+  height: 24px!important;
+  padding: 0px 5px!important;
+}
+.cr-combined-order-book__large .cr-order-book tr th{
+  height: 24px!important;
+  padding: 0px 5px!important;
+}

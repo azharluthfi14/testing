@@ -1,0 +1,12 @@
+.protocol-segment {
+    justify-content: flex-end;
+}
+.protocol-segment ion-segment-button{
+    flex: none;
+    width: auto!important;
+    min-height: 20px!important;
+    min-width: auto!important;
+    height: 26px!important;
+    padding: 5px!important;
+
+}

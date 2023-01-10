@@ -1,0 +1,201 @@
+.cr-table__noData .pg-recent-trades .cr-table td, .cr-table__noData .pg-recent-trades .cr-table th {
+  text-align: right;
+}
+.cr-table__noData .pg-recent-trades .cr-table td:nth-child(2), .cr-table__noData .pg-recent-trades .cr-table th:nth-child(2) {
+  text-align: center;
+  width: 100%;
+}
+.pg-recent-trades .cr-table__body {
+  cursor: pointer;
+}
+.pg-recent-trades .cr-table td, .pg-recent-trades .cr-table th {
+  text-align: right;
+}
+.pg-recent-trades .cr-table td:first-child, .pg-recent-trades .cr-table th:first-child {
+  text-align: left;
+  width: 50%;
+}
+.pg-recent-trades .cr-table td:nth-child(2), .pg-recent-trades .cr-table th:nth-child(2) {
+  width: auto;
+}
+.pg-recent-trades .cr-table td:nth-child(3), .pg-recent-trades .cr-table th:nth-child(3) {
+  width: 50%;
+}
+.pg-recent-trades .cr-table thead th {
+  top: calc(var(--gap) * 6);
+}
+.pg-recent-trades .cr-table td span > span:first-child.cr-decimal__opacity {
+  opacity: 1;
+}
+.pg-recent-trades .cr-tab-panel__navigation-container {
+  border-top-left-radius: calc(var(--gap) * 0.5);
+  border-top-right-radius: calc(var(--gap) * 0.5);
+  flex-direction: row-reverse;
+  margin-bottom: 0;
+  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.pg-recent-trades .cr-tab-panel__optinal-head {
+  align-items: center;
+  color: var(--primary-text-color);
+  display: flex;
+  padding: calc(var(--gap) * 1.5) calc(var(--gap) * 1.5) calc(var(--gap) * 1.33);
+  width: 100%;
+}
+.pg-recent-trades .cr-tab-panel .cr-tab {
+  padding: calc(var(--gap) * 1.5) calc(var(--gap) * 2) 0;
+}
+.pg-recent-trades .cr-tab-panel .cr-tab-content__noData .cr-table td, .pg-recent-trades .cr-tab-panel .cr-tab-content__noData .cr-table th {
+  text-align: right;
+}
+.pg-recent-trades .cr-tab-panel .cr-tab-content__noData .cr-table td:nth-child(2), .pg-recent-trades .cr-tab-panel .cr-tab-content__noData .cr-table th:nth-child(2) {
+  text-align: center;
+  width: 100%;
+}
+.pg-recent-trades .cr-tab-panel .cr-tab-content-loading {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: calc(var(--gap) * 4.5);
+}
+.pg-recent-trades-unlogged .cr-tab-panel .cr-tab__active {
+  display: none;
+}
+@media (max-width: 1280px) {
+  .pg-recent-trades .cr-tab-panel__optinal-head {
+    padding-left: calc(var(--gap) * 1.5);
+    padding-right: calc(var(--gap) * 1);
+ }
+  .pg-recent-trades .cr-tab-panel .cr-tab {
+    padding-left: calc(var(--gap) * 1.5);
+    padding-right: calc(var(--gap) * 1.5);
+ }
+  .cr-table thead th {
+    z-index: 1 !important;
+ }
+}
+
+.pg-recent-trades__markets .cr-table-container .cr-table thead {
+    position: sticky;
+    top: -1px;
+    z-index: 99;
+    background: var(--body-background-color);
+}
+
+.pg-recent-trades__markets .cr-table-container .cr-table tr td {
+  padding-top: 0px; 
+  padding-bottom: 0px;
+  height: 24px; 
+}
+
+.pg-recent-trades__markets .cr-table-container .cr-table tr th {
+  padding-top: 0px; 
+  padding-bottom: 0px;
+  height: 24px; 
+}
+
+.order-table {
+  width: 100%;
+}
+
+.order-table thead tr th:nth-child(1) {
+  text-align: left;
+  width: 30%;
+}
+.order-table thead tr th:nth-child(2) {
+  text-align: right;
+  width: 20%;
+}
+.order-table thead tr th:nth-child(3) {
+  text-align: right;
+  width: 20%;
+}
+.order-table thead tr th:nth-child(4) {
+  text-align: right;
+  width: 20%;
+}
+.order-table thead tr th:nth-child(5) {
+  text-align: right;
+  width: 10%;
+}
+.order-table thead {
+    position: sticky;
+    top: -1px;
+    z-index: 99;
+    background: var(--body-background-color);
+}
+.order-table thead tr th{
+  height: 24px!important;
+  padding: 0px 5px!important;
+  font-weight:500!important;
+}
+
+.order-row {
+  width: 100%;
+}
+
+.order-row tbody tr td:nth-child(1) {
+  text-align: left;
+  width: 30%;
+}
+.order-row tbody tr td:nth-child(2) {
+  text-align: right;
+  width: 20%;
+}
+.order-row tbody tr td:nth-child(3) {
+  text-align: right;
+  width: 20%;
+}
+.order-row tbody tr td:nth-child(4) {
+  text-align: right;
+  width: 20%;
+}
+.order-row tbody tr td:nth-child(5) {
+  text-align: right;
+  width: 10%;
+}
+.order-row tbody tr td{
+  height: 24px!important;
+  padding: 0px 5px!important;
+  font-weight:500!important;
+  line-height:18px;
+  padding-bottom: 5px!important;
+}
+
+ion-action-sheet.my-custom-class .action-sheet-group {
+  background: var(--body-backfround-color);
+}
+
+ion-action-sheet.my-custom-class .action-sheet-title {
+  color: #000;
+  font-size: 16px;
+}
+
+ion-action-sheet.my-custom-class .action-sheet-sub-title {
+  padding-top: 5px;
+}
+
+ion-action-sheet.my-custom-class .action-sheet-cancel::after {
+  background: #e97223;
+}
+
+ion-action-sheet.my-custom-class .action-sheet-button,
+ion-action-sheet.my-custom-class .action-sheet-button.ion-focused {
+  color: #000000;
+}
+
+@media (any-hover: hover) {
+  ion-action-sheet.my-custom-class .action-sheet-button:hover {
+    color: #000000;
+  }
+}
+
+ion-action-sheet.my-custom-class ion-backdrop {
+  opacity: 0.6;
+}
